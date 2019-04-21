@@ -3,8 +3,12 @@
   padding-right: 95px;
   padding-bottom: 0px;
   padding-top: 10px;
+  background:#92dcec;
+  width:100vw;
+  height: 15vh;
 }
 
 .btn-primary{
   float: right;
+
 }
