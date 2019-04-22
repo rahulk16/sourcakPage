@@ -1,12 +1,22 @@
 #pad{
+position: fixed;
   padding-left: 95px;
   padding-right: 95px;
   padding-bottom: 0px;
   padding-top: 10px;
   background:#92dcec;
   width:100%;
-  height: 15vh;
+  height: auto;
   margin: 0px;
+}
+#message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#inner-message {
+    margin: 0 auto;
 }
 .row{
 	margin: 0px;
@@ -14,13 +24,28 @@
 #demo{
   background:#d1d0d2;
   width:100%;
-  height: 75vh;
+  height: auto;
+  top: 75px;
   margin: 0px;
+  padding-bottom: 65px;
+}
+#about{
+  background:#d1d0d2;
+  width:100%;
+  height: auto;
+  margin: 0px;
+
 }
 #items{
 	background: #d1d0d2;
 	margin-left: 60px;
 }
+#sourack{
+  color: #5c0d84;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
 .btn-primary{
   float: right;
   cursor: pointer;
@@ -58,3 +83,10 @@ ul.dashed > li:before {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+ }

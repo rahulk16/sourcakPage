@@ -21,13 +21,15 @@
   </head>
   <body>
 <!-- Apply Section -->
-    <div id="pad" class="alert alert-primary alert-dismissible fade show" role="alert" >
+    <div style="position: fixed; z-index: 1;">
+    <div id="pad" class="alert alert-primary alert-dismissible fade show " role="alert" >
       <strong style="float: left;">Global Engagement Manager Recruitment Program 2019</strong><br>
         <p style="float:left;">Help us disrupt the trading industry and push the boundaries of international trades.</p> 
         <div class="btn btn-primary" aria-disabled="true" >Apply Now</div>
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="changeTop()">
           <span aria-hidden="true">&times;</span>
       </button>
+    </div>
     </div>
 <!-- Request Demo section -->
     <div id="demo" class="alert alert-primary alert-dismissible fade show" role="alert" >
@@ -212,9 +214,50 @@
         </div>
       </div> 
     </div>
+<!-- About Us -->
+    <div id="about" class="alert alert-primary alert-dismissible fade show" role="alert" >
+      <div class="container" >
+        <div class="row">
+          <div class="col">
+            <h1>Sourcak Partner factories process over $9<br>billion in orders annually.</h1>
+            <p style="font-size: x-large;color: black;">
+              We work with industry experts, large startup founders, Ex McKinsey & Bain consultants,<br>Engineering and Bussiness school students representing top 1% of their class at Ivy league<br>schools and its equivalents; who are helped by our freelance agents to verify manufacturers for us.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 <!-- Footer -->
-    <div>
-      
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-4" id="sourack">
+              <h1>Sourcak</h1>
+              <p>Simplifies the trade,product development<br>and project set up experience</p><br>
+              <p>INDIA<br>6th floor,Commercial point office park,<br>79 Lenin Sarani Kolkata, India</p><br>
+              <p>SOUTH AFRICA<br>Block A, Regus House, Wedgefield Bussiness<br>Park, 17 Muswell Road South, Bryanston 2191,<br>South Africa</p><br>
+              <p>CHINA<br>305A, Floor 3, Global Shoes Building, Houjie<br>Town,Dongguan City,Guangdong,China</p><br>
+            </div>
+            <div class="col-sm-4" id="sourack">
+              <p><br><br><br><br><br><br>ITALY<br>Via Puccini 170<br>50019 Sesto Fiorentino Fl<br>Italy</p>
+              <p>SPAIN<br>Barbieri 26<br>Madrid 28004<br>SPAIN</p>
+              <p>LONDON<br>71-75 Shelton Street,<br>Covent Garden,<br>London,WC2H9JQ</p>
+            </div>
+            <div class="col-sm-4" id="sourack" style="padding-top: 30px;">
+              <p><b>QUESTIONS<br>SAURABH@MAHABIRINDUSTRIES.COM</b></p>
+              <div class="row">
+                <div class="col-sm-6" style="padding-top: 30px;">
+                  <a href="#" style="color: #5c0d84;"><b>SOLUTIONS</b></a><br><br>
+                  <a href="#" style="color: #5c0d84;"><b>FOR BUYERS</b></a><br><br>
+                  <a href="#" style="color: #5c0d84;"><b>FOR SUPPLIERS</b></a><br><br>
+                </div>
+                <div class="col-sm-6" style="padding-top: 30px;">
+                  <a href="#" style="color: #5c0d84;"><b>ABOUT US</b></a><br><br>
+                  <a href="#" style="color: #5c0d84;"><b>COMPANY</b></a><br><br>
+                  <a href="#" style="color: #5c0d84;"><b>CAREERS</b></a><br><br>
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
 
 
@@ -225,4 +268,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+  <script type="text/javascript">
+    function changeTop(){
+      ele = document.getElementById('demo');
+      ele.style.top = "0px";
+    }
+  </script>
 </html>
