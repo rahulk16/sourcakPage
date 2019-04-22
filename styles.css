@@ -17,6 +17,10 @@
   height: 75vh;
   margin: 0px;
 }
+#items{
+	background: #d1d0d2;
+	margin-left: 60px;
+}
 .btn-primary{
   float: right;
   cursor: pointer;
