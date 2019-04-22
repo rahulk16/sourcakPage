@@ -27,7 +27,7 @@ position: fixed;
   height: auto;
   top: 75px;
   margin: 0px;
-  padding-bottom: 65px;
+  padding-bottom: 100px;
 }
 #about{
   background:#d1d0d2;
@@ -88,5 +88,5 @@ ul.dashed > li:before {
   width: 100%;
   position: relative;
   height: auto;
-  background-color: #070617;
+  background-color: #010102;
  }
