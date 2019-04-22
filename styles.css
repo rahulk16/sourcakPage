@@ -8,7 +8,9 @@
   height: 15vh;
   margin: 0px;
 }
-
+.row{
+	margin: 0px;
+}
 #demo{
   background:#d1d0d2;
   width:100%;
@@ -46,4 +48,9 @@ ul.dashed > li:before {
   content: "- ";
   text-indent: -5px;
 
+}
+
+.card{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
